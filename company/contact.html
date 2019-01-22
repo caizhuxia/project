@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+			<div class="top w">
+			<div class="logo"></div>
+			<div class="top-up">
+				<ul class="list clearfix">
+					<li><a href="#">设为首页</a></li>
+					<li class="line"></li>
+					<li><a href="#">加入收藏</a></li>
+					<li class="line"></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<div>服务热线：<span class="tel">400-888 8888</span></div>
+			</div>
+			<div class="nav">
+				<ul class="list clearfix">
+					<li><a href="index.html">首&nbsp;&nbsp;页</a></li>
+					<li><a href="about.html">企业介绍</a></li>
+					<li><a href="sushe.html">宿舍分布</a></li>
+					<li><a href="anli.html">成功案例</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="lianm.html">联盟展示</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<li><a href="online.html">在线预订</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="about-banner w" id="about_banner">
+			<ul class="list">
+				<li><img src="img/ban1.png" alt="" /></li>
+				<li><img src="img/ban2.png" alt="" /></li>
+				<li><img src="img/ban3.png" alt="" /></li>
+				<li><img src="img/ban4.png" alt="" /></li>
+				<li><img src="img/ban5.png" alt="" /></li>
+				<li><img src="img/ban6.png" alt="" /></li>
+				<li><img src="img/ban7.png" alt="" /></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var about_banner=document.getElementById("about_banner");
+			var ul=about_banner.children[0];
+			var index=0;
+			var t=null;
+			t=setInterval(function(){
+				index=(index+1)%7;
+				ul.style.left=-index*1000+"px";
+			},2000)
+		</script>
+		<div class="qiye-detail">
+			<div class="w clearfix">
+				<div class="fl">
+					<h3 class="shouye"><span class="ico-shu"></span>首页-联系我们</h3>
+					<div class="contact-intro">
+						<h2>上海剑翔酒店管理有限公司 <span class="text">Shanghai Jian Xiang Hotel Managemengt Co.,Ltd.</span><psan class="line-blue"></psan></h2>
+					<div class="content clearfix">
+						<div class="left">
+							<ul>
+							<li>咨询热线：400 888 8888</li>
+							<li>24小时服务热线：13866668888</li>
+							<li>地址：共和新路2993号中环企业广场888室</li>
+						</ul>
+						</div>
+						<div class="right">
+							<ul>
+							<li>总机：021-12345678/87654321</li>
+							<li>传真：021-12345678</li>
+							<li>邮编：200120</li>
+						</ul>
+						</div>
+					</div>
+					<div class="map">
+						<img src="img/img33.png"/>
+					</div>
+					</div>
+				</div>
+				<div class="fr">
+					<h3><span class="ico-home"></span>宿舍分布<span class="liner"></span></h3>
+				<ul>
+					<li>
+						<img src="img/img16.png"/>
+						<p class="orange">漕河泾项目：</p>
+						<p>上海市徐汇区桂平路291号2楼</p>
+					</li>
+					<li>
+						<img src="img/img17.png"/>
+						<p class="orange">金桥项目：</p>
+						<p>上海浦东新区金业路72号申大公寓2楼</p>
+					</li>
+					<li>
+						<img src="img/img18.png"/>
+						<p class="orange">世纪公园项目：</p>
+						<p>上海市浦东新区杨源路B栋2楼、3楼</p>
+					</li>
+					<li>
+						<img src="img/img19.png"/>           
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="footer">
+			<div class="w">
+				<ul class="list clearfix">
+					<li>关于我们</li>
+					<li class="line"></li>
+					<li>联系我们</li>
+					<li class="line"></li>
+					<li>在线预订</li>
+					<li class="line"></li>
+					<li>新闻中心</li>
+					<li class="line"></li>
+					<li>成功案例</li>
+				</ul>
+				<p>服务热线：400-888888&nbsp;版权所有：上海我要宿舍&nbsp;沪ICP备xxxxxx号&nbsp;技术支持：上海楚鸣信息科技有限公司</p>
+			</div>
+		</div>
+	</body>
+</html>

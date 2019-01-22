@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="top w">
+			<div class="logo"></div>
+			<div class="top-up">
+				<ul class="list clearfix">
+					<li><a href="#">设为首页</a></li>
+					<li class="line"></li>
+					<li><a href="#">加入收藏</a></li>
+					<li class="line"></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<div>服务热线：<span class="tel">400-888 8888</span></div>
+			</div>
+			<div class="nav">
+				<ul class="list clearfix">
+					<li><a href="index.html">首&nbsp;&nbsp;页</a></li>
+					<li><a href="about.html">企业介绍</a></li>
+					<li><a href="sushe.html">宿舍分布</a></li>
+					<li><a href="anli.html">成功案例</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="lianm.html">联盟展示</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<li><a href="online.html">在线预订</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="fenge"></div>
+		<div class="banner w" id="banner">
+			<ul class="list clearfix">
+				<li><img src="img/banner1.png"/></li>
+				<li><img src="img/banner2.png"/></li>
+				<li><img src="img/banner3.png"/></li>
+			</ul>
+			<div class="pre"></div>
+				<div class="next"></div>
+		</div>
+		<script type="text/javascript">
+			var  banner=document.getElementById("banner");
+			var ul=banner.children[0];
+			var index=0;
+				function run(flag){
+					if (flag) {
+						index=(index+1)%3;
+					} else{
+						index=(index+2)%3;
+					}
+					ul.style.left=index*-1000+"px"
+				}
+				banner.children[1].onclick=function(){
+					run(true);
+				}
+				banner.children[2].onclick=function(){
+					run(false);
+				}
+		</script>
+		<div class="jieshao w">
+			<div class="qiye fl">
+				<h3><span class="ico ico-qiye"></span>企业介绍<span class="liner"></span></h3>
+				<p>公司成立于2010年，是由上海航翼千休酒店管理有限公司等3家酒店管理公司优化整合成立，专属负责企业员工宿舍及白领公寓的专业化管理公司。</p>
+				<p>公司成立于2010年，是由上海航翼千休酒店管理有限公司等3家酒店管理公司优化整合成立，专属负责企业员工宿舍及白领公寓的专业化管理公司。</p>
+			</div>
+			<div class="news fl">
+				<h3><span class="ico ico-news"></span>新闻中心<span class="liner"></span></h3>
+				<ul class="news-list">
+					<li>
+						<span class="fl">优质及交通便利的物业</span>
+						<span class="fr">[2013-06-19]</span>
+						<span class="ico-add"></span>
+					</li>
+					<li>
+						<span class="fl">合理的优化整合资源</span>
+						<span class="fr">[2013-06-19]</span>
+						<span class="ico-add"></span>
+					</li>
+					<li>
+						<span class="fl">根据客户需求提供宿舍配套方案</span>
+						<span class="fr">[2013-06-19]</span>
+						<span class="ico-add"></span>
+					</li>
+					<li>
+						<span class="fl">完善的宿舍管理系统</span>
+						<span class="fr">[2013-06-19]</span>
+						<span class="ico-add"></span>
+					</li>
+					<li>
+						<span class="fl">符合国际标准的消防系统</span>
+						<span class="fr">[2013-06-19]</span>
+						<span class="ico-add"></span>
+					</li>
+					<li>
+						<span class="fl">根据客户需求提供宿舍配套方案</span>
+						<span class="fr">[2013-06-19]</span>
+						<span class="ico-add"></span>
+					</li>
+				</ul>
+			</div>
+			<div class="contact fl">
+				<h3><span class="ico ico-tel"></span>联系我们<span class="liner"></span></h3>
+				<ul class="contact-info">
+					<li>剑翔酒店管理有限公司</li>
+					<li>拓展经理：王剑森</li>
+					<li>联系电话：18621655199</li>
+					<li>联系传真：021-8888888</li>
+					<li>地址：上海市闸北区共和新路2993号</li>
+					<li>QQ：12345678</li>
+				</ul>
+			</div>
+		</div>
+		<div class="anli w">
+			<h3>成功案例
+				<span class="liner"></span>
+				<span class="more">more</span>
+				<span class="more-add">+</span>
+			</h3>
+			<ul class="list clearfix">
+				<li><img src="img/img4.png" alt="" /></li>
+				<li><img src="img/img5.png" alt="" /></li>
+				<li><img src="img/img6.png" alt="" /></li>
+				<li><img src="img/img7.png" alt="" /></li>
+				<li><img src="img/img8.png" alt="" /></li>
+			</ul>
+		</div>
+		<div class="partner w">
+			<h3>合作伙伴
+				<span class="liner"></span>
+			</h3>
+			<ul class="list clearfix">
+				<li>
+					<img src="img/img9.png" alt="" />
+					<p>上海浦西万怡酒店</p>
+				</li>
+				<li>
+					<img src="img/img10.png" alt="" />
+					<p>上海漕河泾万丽酒店</p>
+				</li>
+				<li>
+					<img src="img/img11.png" alt="" />
+					<p>上海金桥万豪酒店</p>
+				</li>
+				<li>
+					<img src="img/img12.png" alt="" />
+					<p>湘鳄情餐厅</p>
+				</li>
+				<li>
+					<img src="img/img13.png" alt="" />
+					<p>大众汽车</p>
+				</li>
+				<li>
+					<img src="img/img14.png" alt="" />
+					<p>上海浦东嘉里中心</p>
+				</li>
+				<li>
+					<img src="img/img15.png" alt="" />
+					<p>俏江南餐饮</p>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<div class="w">
+				<ul class="list clearfix">
+					<li>关于我们</li>
+					<li class="line"></li>
+					<li>联系我们</li>
+					<li class="line"></li>
+					<li>在线预订</li>
+					<li class="line"></li>
+					<li>新闻中心</li>
+					<li class="line"></li>
+					<li>成功案例</li>
+				</ul>
+				<p>服务热线：400-888888&nbsp;版权所有：上海我要宿舍&nbsp;沪ICP备xxxxxx号&nbsp;技术支持：上海楚鸣信息科技有限公司</p>
+			</div>
+		</div>
+	</body>
+</html>

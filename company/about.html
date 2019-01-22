@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+			<div class="top w">
+			<div class="logo"></div>
+			<div class="top-up">
+				<ul class="list clearfix">
+					<li><a href="#">设为首页</a></li>
+					<li class="line"></li>
+					<li><a href="#">加入收藏</a></li>
+					<li class="line"></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+				<div>服务热线：<span class="tel">400-888 8888</span></div>
+			</div>
+			<div class="nav">
+				<ul class="list clearfix">
+					<li><a href="index.html">首&nbsp;&nbsp;页</a></li>
+					<li><a href="about.html">企业介绍</a></li>
+					<li><a href="sushe.html">宿舍分布</a></li>
+					<li><a href="anli.html">成功案例</a></li>
+					<li><a href="news.html">新闻中心</a></li>
+					<li><a href="lianm.html">联盟展示</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+					<li><a href="online.html">在线预订</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="about-banner w" id="about_banner">
+			<ul class="list">
+				<li><img src="img/ban1.png" alt="" /></li>
+				<li><img src="img/ban2.png" alt="" /></li>
+				<li><img src="img/ban3.png" alt="" /></li>
+				<li><img src="img/ban4.png" alt="" /></li>
+				<li><img src="img/ban5.png" alt="" /></li>
+				<li><img src="img/ban6.png" alt="" /></li>
+				<li><img src="img/ban7.png" alt="" /></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			var about_banner=document.getElementById("about_banner");
+			var ul=about_banner.children[0];
+			var index=0;
+			var t=null;
+			t=setInterval(function(){
+				index=(index+1)%7;
+				ul.style.left=-index*1000+"px";
+			},2000)
+		</script>
+		<div class="qiye-detail">
+			<div class="w clearfix">
+				<div class="fl">
+					<h3 class="shouye"><span class="ico-shu"></span>首页-企业介绍</h3>
+					<div class="intro">
+						<h2>上海剑翔酒店管理有限公司 <span class="text">Shanghai Jian Xiang Hotel Managemengt Co.,Ltd.</span><psan class="line-blue"></psan></h2>
+						<div class="content">
+							<p>公司成立于2010年，是由上海航翼千休酒店管理有限公司等3家酒店管理公司优化整合成立，专属负责企业员工宿舍及白领公寓的专业化管理公司。</p>
+							<ul class="reason">
+								<span class="blue">选择我们的理由：</span>
+								<li>优质及交通便利的物业</li>
+								<li>合理的优化整合资源</li>
+								<li>根据客户需求提供宿舍配套方案</li>
+								<li>完善的宿舍管理系统</li>
+								<li>符合国际标准的消防系统</li>
+							</ul>
+							<ul class="hotel">
+								<span class="blue">我们的宿舍及公寓：</span>
+								<li>标准房间配置：独立卫浴、木质床、空调、液晶电视、无线网络、储物柜、写字台桌椅、纯净饮用水、洗衣房、专业保洁、24小时摄像头监控、24小时保安。</li>
+								<li>公寓分区：男生区、女生区，主要有单人间、双人间、4人间、6人间、8人间。</li>
+
+							</ul>
+						  <div>可根据客户要求提供先进的一体化卫生及洁浴系统，或安装传统卫生及洁浴设备</div>
+						  <div>我们可根据客户需求，提供员工活动室，网吧及阅览室。</div>
+						</div>
+					</div>
+				</div>
+				<div class="fr">
+					<h3><span class="ico-home"></span>宿舍分布<span class="liner"></span></h3>
+				<ul>
+					<li>
+						<img src="img/img16.png"/>
+						<p class="orange">漕河泾项目：</p>
+						<p>上海市徐汇区桂平路291号2楼</p>
+					</li>
+					<li>
+						<img src="img/img17.png"/>
+						<p class="orange">金桥项目：</p>
+						<p>上海浦东新区金业路72号申大公寓2楼</p>
+					</li>
+					<li>
+						<img src="img/img18.png"/>
+						<p class="orange">世纪公园项目：</p>
+						<p>上海市浦东新区杨源路B栋2楼、3楼</p>
+					</li>
+					<li>
+						<img src="img/img19.png"/>           
+					</li>
+				</ul>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="footer">
+			<div class="w">
+				<ul class="list clearfix">
+					<li>关于我们</li>
+					<li class="line"></li>
+					<li>联系我们</li>
+					<li class="line"></li>
+					<li>在线预订</li>
+					<li class="line"></li>
+					<li>新闻中心</li>
+					<li class="line"></li>
+					<li>成功案例</li>
+				</ul>
+				<p>服务热线：400-888888&nbsp;版权所有：上海我要宿舍&nbsp;沪ICP备xxxxxx号&nbsp;技术支持：上海楚鸣信息科技有限公司</p>
+			</div>
+		</div>
+	</body>
+</html>
